@@ -8,8 +8,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/you/connect-market/services/auth/models"
-	"github.com/you/connect-market/services/auth/repository"
+	"github.com/htsync/admarket/services/auth/models"
+	"github.com/htsync/admarket/services/auth/repository"
 	"golang.org/x/crypto/bcrypt"
 )
 

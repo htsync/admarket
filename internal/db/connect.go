@@ -1,20 +1,12 @@
-package dbpackage
+package db
 
 import (
 	"context"
 	"fmt"
 	"log"
 	"os"
-)
-db
 
-import (
-"context"
-"fmt"
-"log"
-"os"
-
-"github.com/jackc/pgx/v5/pgxpool"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 func Connect() *pgxpool.Pool {
@@ -31,4 +23,3 @@ func Connect() *pgxpool.Pool {
 	}
 	return pool
 }
-

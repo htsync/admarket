@@ -7,16 +7,15 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 
-	"github.com/you/connect-market/internal/db"
-	"github.com/you/connect-market/services/auth/handlers"
-	"github.com/you/connect-market/services/auth/repository"
+	"github.com/htsync/admarket/internal/db"
+	"github.com/htsync/admarket/services/auth/handlers"
+	"github.com/htsync/admarket/services/auth/repository"
 )
 
 func main() {
 	_ = godotenv.Load()
 	pool := db.Connect()
 	defer pool.Close()
-
 	repo := repository.NewUserRepository(pool)
 	h := handlers.NewAuthHandler(repo)
 

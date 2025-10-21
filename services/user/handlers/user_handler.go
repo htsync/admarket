@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/you/connect-market/services/user/models"
-	"github.com/you/connect-market/services/user/repository"
+	"github.com/htsync/admarket/services/user/models"
+	"github.com/htsync/admarket/services/user/repository"
 )
 
 type UserHandler struct {

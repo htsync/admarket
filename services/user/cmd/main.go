@@ -7,9 +7,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 
-	"github.com/you/connect-market/internal/db"
-	"github.com/you/connect-market/services/user/handlers"
-	"github.com/you/connect-market/services/user/repository"
+	"github.com/htsync/admarket/internal/db"
+	"github.com/htsync/admarket/services/user/handlers"
+	"github.com/htsync/admarket/services/user/repository"
 )
 
 func main() {

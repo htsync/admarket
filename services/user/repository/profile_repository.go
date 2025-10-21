@@ -2,8 +2,8 @@ package repository
 
 import (
 	"context"
+	"github.com/htsync/admarket/services/user/models"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/you/connect-market/services/user/models"
 )
 
 type ProfileRepository struct {

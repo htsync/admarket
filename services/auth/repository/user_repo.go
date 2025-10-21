@@ -3,8 +3,8 @@ package repository
 import (
 	"context"
 	"errors"
+	"github.com/htsync/admarket/services/auth/models"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/you/connect-market/services/auth/models"
 )
 
 type UserRepository struct {
