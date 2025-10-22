@@ -3,6 +3,7 @@ package repository
 import (
 	"context"
 	"errors"
+
 	"github.com/htsync/admarket/services/auth/models"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
